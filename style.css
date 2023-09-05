@@ -516,7 +516,42 @@
             }
         }
         .items{
-            
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            justify-content: center;
+            .item{
+                margin-right: 25px;
+                margin-bottom: 25px;
+                height: fit-content;
+                border-radius: 5px ;
+                text-align: center;
+                background-color: #F5FBFF;
+                overflow: hidden;
+                transition: all .5s;
+                & img{
+                    transition: all .3s;
+                }
+                &:hover{
+                    background-color: #2a8feeb0;
+                    transition: all .3s;
+                    & img{
+                        transform: scale(1.05);
+                    }
+                }
+                &:last-child{
+                    margin-right: 0px;
+                }
+                & h2{
+                    margin: 12px 0;
+                    font-weight: normal;
+                }
+                & P{
+                    padding-bottom: 20px;
+                }
+            }
         }
     }
 }
