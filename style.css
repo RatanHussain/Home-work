@@ -479,3 +479,44 @@
         opacity: .3;
     }
 }
+
+.section-eight{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    .container{
+        position: relative;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        .top{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top:120px ;
+            margin-bottom: 50px;
+            font-size: 1.6rem;
+            & i{
+                border: 1px solid #0000003a;
+                height: 50px;
+                width: 50px;
+                padding: 13px 17px;
+                margin: 0 20px;
+                font-size: 1.4rem;
+                cursor: pointer;
+                border-radius: 3px;
+                transition: .3s;
+                &:hover{
+                    background-color: #1087F5;
+                    color: #fff;
+
+                }
+            }
+        }
+        .items{
+            
+        }
+    }
+}
