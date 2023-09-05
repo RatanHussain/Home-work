@@ -555,3 +555,39 @@
         }
     }
 }
+
+.section-nine{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    .left{
+        height: 100%;
+        width: 50%;
+        background: url(./img/girls-left.webp) no-repeat;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        &:last-child{
+            background: url(./img/girls-right.webp) no-repeat;
+        }
+        .text{
+            margin-right: 35px;
+            line-height: 40px;
+            letter-spacing: 3px;
+            text-shadow: 5px 5px 10px #00000088;
+        }
+        & button{
+            padding: 10px 45px;
+            border-radius: 30px;
+            border: 1px solid ;
+            transition: all .5s;
+            font-size: 1rem;
+            &:hover{
+                background-color: #1087F5;
+                color: #fff;
+            }
+        }
+    }
+}
